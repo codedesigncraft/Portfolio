@@ -1,0 +1,15 @@
+
+.container {
+    display: grid;
+    width: 90%;
+
+    @include respond (phone) {
+        display: block;
+        padding-top: 15rem;
+    }
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
